@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, "frontend/static/frontend/public/"),
 
         // 127.0.0.1/static/frontend/public/ where files are served from
-        publicPath: "/static/frontend/public/",
+        publicPath: "static/frontend/public/",
         filename: 'main.js',  // the same one we import in index.html
     },
     module: {
